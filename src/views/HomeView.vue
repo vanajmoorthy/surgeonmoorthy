@@ -155,7 +155,7 @@ main {
 	background-image: url("../assets/krishna.jpeg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 0px 0px;
+	background-position: -140px 0px;
 	top: -100px;
 	z-index: -1;
 }
