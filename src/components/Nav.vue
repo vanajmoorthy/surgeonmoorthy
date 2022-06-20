@@ -52,9 +52,11 @@ export default {
 @import "@/assets/base.css";
 nav {
 	display: flex;
-
 	justify-content: space-between;
 	font-size: 1.1rem;
+	padding: 2rem 2rem;
+	backdrop-filter: blur(2px);
+	background-color: #f2f2f2;
 }
 
 #gastro {
@@ -71,11 +73,14 @@ nav {
 	font-weight: 600;
 }
 
+.nav-link {
+	margin-left: 1rem;
+}
+
 .nav-link,
 .home-link {
 	color: black;
 	text-decoration: none;
-	margin-left: 1rem;
 	transition: 0.2s ease all;
 }
 
@@ -113,10 +118,11 @@ nav {
 .expand {
 	overflow: visible;
 	max-height: 300px !important;
+	margin-top: 1rem;
 }
 
 #nav-links {
-	transition: 0.2s ease all;
+	transition: 0.6s ease all;
 }
 
 @media screen and (max-width: 930px) {
@@ -126,7 +132,6 @@ nav {
 	#nav-links {
 		display: flex;
 		flex-direction: column;
-		margin-top: 2rem;
 	}
 	.home-link {
 		margin-left: 0rem;
