@@ -26,8 +26,13 @@
 				>Innovation</RouterLink
 			>
 			<RouterLink class="nav-link link" to="/contact">Contact</RouterLink>
-			<RouterLink id="gastro" class="nav-link link" to="/reflux"
-				>gastroreflux.co.uk</RouterLink
+			<a
+				id="gastro"
+				class="nav-link link"
+				href="https://gastroreflux.co.uk"
+				target="_blank"
+				rel="noopener noreferrer"
+				>gastroreflux.co.uk</a
 			>
 		</div>
 	</nav>
@@ -56,7 +61,6 @@ nav {
 	font-size: 1.1rem;
 	padding: 2rem 2rem;
 	backdrop-filter: blur(2px);
-	background-color: #f2f2f2;
 }
 
 #gastro {
@@ -123,6 +127,10 @@ nav {
 
 #nav-links {
 	transition: 0.6s ease all;
+}
+
+.nav-link.router-link-active {
+	text-decoration: underline;
 }
 
 @media screen and (max-width: 930px) {

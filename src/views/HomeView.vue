@@ -129,7 +129,7 @@
 
 .about-text h1,
 .values h1 {
-	color: #414141;
+	color: var(--heading-color);
 	font-weight: 900;
 }
 
@@ -149,17 +149,19 @@
 main {
 	display: flex;
 	flex-direction: column;
-	height: calc(100vh - 97px);
+	height: calc(100vh + 3px);
 	justify-content: center;
 	align-items: flex-end;
 	background-image: url("../assets/krishna.jpeg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: 0px 0px;
+	top: -100px;
+	z-index: -1;
 }
 
 .hero-text {
-	margin-right: 10%;
+	margin-right: 9%;
 	background-color: rgb(255, 255, 255, 0.7);
 	padding: 1rem;
 	border-radius: 12px;
@@ -168,7 +170,7 @@ main {
 
 .hero-text h1 {
 	font-weight: 900;
-	color: #414141;
+	color: var(--heading-color);
 }
 
 .hero-text h2 {
@@ -204,6 +206,8 @@ main {
 	main {
 		align-items: center;
 		background-image: none;
+		top: 0px;
+		height: calc(100vh - 120px);
 	}
 
 	.about {

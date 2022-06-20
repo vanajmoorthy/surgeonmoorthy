@@ -29,11 +29,6 @@ const router = createRouter({
 			name: "contact",
 			component: () => import("../views/ContactView.vue"),
 		},
-		{
-			path: "/reflux",
-			name: "reflux",
-			component: () => import("../views/RefluxView.vue"),
-		},
 	],
 });
 
