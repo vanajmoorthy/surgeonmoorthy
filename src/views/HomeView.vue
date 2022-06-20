@@ -121,7 +121,7 @@
 .about {
 	display: flex;
 	align-items: center;
-	margin-top: -6.239rem;
+	margin-top: -4rem;
 }
 
 .about-text {
@@ -135,7 +135,7 @@
 }
 
 .values {
-	padding: 0rem 2rem;
+	padding: 4rem 2rem 2rem 2rem;
 }
 
 .about-text p {
