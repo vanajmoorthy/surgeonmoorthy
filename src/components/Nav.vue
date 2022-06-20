@@ -59,8 +59,11 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	font-size: 1.1rem;
-	padding: 2rem 2rem;
 	backdrop-filter: blur(2px);
+}
+
+#home {
+	padding: 2rem 2rem 0 2rem;
 }
 
 #gastro {
@@ -123,23 +126,27 @@ nav {
 	overflow: visible;
 	max-height: 300px !important;
 	margin-top: 1rem;
+	background-color: rgb(233 233 233);
+	padding: 1rem 2rem !important;
 }
 
 #nav-links {
 	transition: 0.6s ease all;
+	padding: 2rem 2rem;
 }
 
 .nav-link.router-link-active {
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 990px) {
 	nav {
 		flex-direction: column;
 	}
 	#nav-links {
 		display: flex;
 		flex-direction: column;
+		padding: 0 2rem;
 	}
 	.home-link {
 		margin-left: 0rem;

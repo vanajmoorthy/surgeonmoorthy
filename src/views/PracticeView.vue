@@ -15,26 +15,58 @@
 		</div>
 	</main>
 	<div class="bariatric">
-		<div class="bariatric-img"></div>
-		<div class="bariatric-text">
-			<h1>Bariatric</h1>
-			<p>
-				Krishna performs the whole range of laparoscopic bariatric
-				surgery procedures. Bariatric surgery makes a significant impact
-				on the health of people, reduces risk factors for serious
-				diseases such as diabetes and cancer and makes significant
-				improvements to their quality of life. However, his practice is
-				underpinned by the principle that surgery is only one part of
-				the whole process of care. Excellence is based on a
-				multi-disciplinary team approach and a treatment plan that
-				addresses the overall health of every individual. Surgery is a
-				start towards a new life.
-			</p>
+		<div>
+			<div class="bariatric-img">
+				<img class="shadow" src="@/assets/BARIATRIC.png" alt="" />
+			</div>
+			<div class="bariatric-text">
+				<h2>Bariatric</h2>
+				<p>
+					Krishna performs the whole range of laparoscopic bariatric
+					surgery procedures. Bariatric surgery makes a significant
+					impact on the health of people, reduces risk factors for
+					serious diseases such as diabetes and cancer and makes
+					significant improvements to their quality of life. However,
+					his practice is underpinned by the principle that surgery is
+					only one part of the whole process of care. Excellence is
+					based on a multi-disciplinary team approach and a treatment
+					plan that addresses the overall health of every individual.
+					Surgery is a start towards a new life.
+				</p>
+			</div>
 		</div>
 	</div>
 </template>
 
 <style scoped>
+.bariatric {
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+}
+.bariatric > div {
+	display: flex;
+	max-width: 800px;
+	align-items: center;
+}
+
+.bariatric-img img {
+	border: 2px solid #707070;
+	border-radius: 20px;
+	max-height: 350px;
+	margin-right: 2rem;
+}
+
+.bariatric-text h2 {
+	font-weight: 500;
+}
+
+.shadow {
+	-webkit-box-shadow: 10px 10px 32px 0px rgba(181, 181, 181, 1);
+	-moz-box-shadow: 10px 10px 32px 0px rgba(181, 181, 181, 1);
+	box-shadow: 10px 10px 32px 0px rgba(181, 181, 181, 1);
+}
+
 main {
 	display: flex;
 	justify-content: center;

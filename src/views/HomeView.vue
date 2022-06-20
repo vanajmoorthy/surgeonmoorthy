@@ -121,6 +121,7 @@
 .about {
 	display: flex;
 	align-items: center;
+	margin-top: -6.239rem;
 }
 
 .about-text {
@@ -149,7 +150,7 @@
 main {
 	display: flex;
 	flex-direction: column;
-	height: calc(100vh + 3px);
+	height: calc(100vh + 8px);
 	justify-content: center;
 	align-items: flex-end;
 	background-image: url("../assets/krishna.jpeg");
@@ -215,6 +216,7 @@ main {
 		align-items: center;
 		justify-content: center;
 		padding: 2rem 0;
+		margin-top: 0rem;
 	}
 
 	.about-img {
