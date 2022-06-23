@@ -36,6 +36,42 @@
 			</div>
 		</div>
 	</div>
+
+	<h1 id="teaching">Teaching</h1>
+	<div class="teaching">
+		<div class="teaching-card shadow">
+			<img src="@/assets/k-teaching.png" alt="" />
+			<div>
+				<h2>Mr Krishna Moorthy</h2>
+				<h3>Faculty of Medicine, Department of Surgery & Cancer</h3>
+				<h4>Clinical Senior Lecturer in Upper Gastrointestinal</h4>
+				<a class="paper-link" href=""
+					>View profile at Imperial College’s website</a
+				>
+			</div>
+		</div>
+		<div class="teaching-text">
+			<p>
+				As an academic surgeon, Krishna has supervised a number of PhDs
+				and MDs. He also supervises a number of postgraduate research
+				projects and dissertations.
+			</p>
+			He was the lead for the Master in Surgical Technology and now leads
+			two modules on the Masters in Surgical Innovation in Imperial
+			(link). He is involved in teaching on post-graduate courses in
+			patient safety, quality improvement and surgical technology.
+			<p>
+				He was the local lead for the Royal College of Surgeons Core
+				Skills in Laparoscopic surgery course. He has led and developed
+				surgical training courses in his areas of clinical interest.
+			</p>
+			<p>
+				He is an active surgical trainer and has trained a number of
+				trainees and established UK and visiting surgeons in
+				oesophagogastric, bariatric and abdominal wall hernia surgery.
+			</p>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -85,6 +121,71 @@ export default {
 </script>
 
 <style scoped>
+#teaching {
+	font-weight: 900;
+	color: var(--heading-color);
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.teaching {
+	display: flex;
+}
+
+.teaching-card {
+	display: flex;
+	/* flex-shrink: 0; */
+	align-items: center;
+	/* max-height: 250px; */
+	padding: 1.5rem;
+	border-radius: 20px;
+	margin: 0 2rem;
+}
+
+.teaching-card > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 80%;
+	margin-left: 1rem;
+}
+
+.teaching-card > div > h2 {
+	color: #414141;
+	font-weight: 900;
+	font-size: 1.7rem;
+}
+
+.teaching-card > div > h3 {
+	color: #606060;
+	font-weight: 700;
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+}
+
+.teaching-card > div > h4 {
+	color: #505050;
+	font-weight: 600;
+	margin-top: 0.5rem;
+}
+
+.teaching-card > div > a {
+	margin-top: 0.5rem;
+}
+.teaching-card img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.teaching-text {
+	width: 60%;
+	margin-right: 2rem;
+}
+
+.teaching-text p {
+	margin-bottom: 0.5rem;
+}
+
 main {
 	display: flex;
 	justify-content: center;
@@ -162,5 +263,42 @@ main {
 
 .research p {
 	font-weight: 500;
+}
+
+@media screen and (max-width: 1122px) {
+	.teaching {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.teaching-text {
+		width: auto;
+		margin: 2rem 2rem 0 2rem;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.teaching-card {
+		flex-direction: column;
+	}
+	.teaching-card img {
+		margin-bottom: 1rem;
+	}
+	.teaching-card > div {
+		align-items: center;
+	}
+
+	.teaching-card > div > h2 {
+		text-align: center;
+	}
+	.teaching-card > div > h3 {
+		text-align: center;
+	}
+	.teaching-card > div > h4 {
+		text-align: center;
+	}
+	.teaching-card > div > a {
+		text-align: center;
+	}
 }
 </style>
