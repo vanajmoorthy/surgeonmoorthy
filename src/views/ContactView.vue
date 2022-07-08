@@ -220,7 +220,13 @@
 		</p>
 
 		<div class="form">
-			<form name="contact" method="POST" data-netlify="true">
+			<form
+				name="contact"
+				method="POST"
+				netlify
+				netlify-honeypot="bot-field"
+				hidden
+			>
 				<p>
 					<input type="text" name="name" placeholder="Name..." />
 				</p>
