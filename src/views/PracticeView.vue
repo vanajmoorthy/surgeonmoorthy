@@ -191,7 +191,7 @@
 		Laparosurgery has practices at the following London locations:
 	</h2>
 
-	<div class="lap-locations">
+	<div class="lap-locations #lap-locations">
 		<div class="location shadow">
 			<img src="@/assets/hospital-imgs/wellington.jpeg" alt="" />
 			<div>
