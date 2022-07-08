@@ -223,9 +223,9 @@
 			<form
 				name="contact"
 				method="POST"
-				netlify
-				netlify-honeypot="bot-field"
-				hidden
+				data-netlify="true"
+				data-netlify-honeypot="bot-field"
+				@submit.prevent="handleSubmit"
 			>
 				<p>
 					<input type="text" name="name" placeholder="Name..." />
