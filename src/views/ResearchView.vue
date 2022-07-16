@@ -1,75 +1,83 @@
 <script setup></script>
 
 <template>
-	<main>
-		<div class="research">
-			<h1>Research</h1>
-			<p>
-				Krishna's research interests are driven by a desire to improve
-				safety and quality of care in surgery. He has undertaken
-				research to develop and validate different technologies for
-				surgical training. His research includes both quantitative and
-				qualitative data analysis. He is a reviewer for a number of high
-				impact journals such as the Annals of Surgery, the BMJ and the
-				British Journal of Surgery. He is also a reviewer of grants for
-				the National Institute of Health Research (NIHR).
-			</p>
-		</div>
-	</main>
+	<div>
+		<main>
+			<div class="research">
+				<h1>Research</h1>
+				<p>
+					Krishna's research interests are driven by a desire to
+					improve safety and quality of care in surgery. He has
+					undertaken research to develop and validate different
+					technologies for surgical training. His research includes
+					both quantitative and qualitative data analysis. He is a
+					reviewer for a number of high impact journals such as the
+					Annals of Surgery, the BMJ and the British Journal of
+					Surgery. He is also a reviewer of grants for the National
+					Institute of Health Research (NIHR).
+				</p>
+			</div>
+		</main>
 
-	<div
-		class="paper-holder"
-		v-for="(paper, key) in groupedPapers"
-		:key="paper"
-	>
-		<h1>
-			{{
-				key.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
-			}}
-		</h1>
+		<div
+			class="paper-holder"
+			v-for="(paper, key) in groupedPapers"
+			:key="paper"
+		>
+			<h1>
+				{{
+					key
+						.replace(/_/g, " ")
+						.replace(/\b\w/g, (c) => c.toUpperCase())
+				}}
+			</h1>
 
-		<div class="paper-category">
-			<div class="shadow" v-for="p in paper" :key="p">
-				<p class="title">{{ p.title }}</p>
-				<p class="byline">{{ p.byline }}</p>
-				<a class="paper-link" :href="p.link">Read paper</a>
+			<div class="paper-category">
+				<div class="shadow" v-for="p in paper" :key="p">
+					<p class="title">{{ p.title }}</p>
+					<p class="byline">{{ p.byline }}</p>
+					<a class="paper-link" :href="p.link">Read paper</a>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<h1 id="teaching">Teaching</h1>
-	<div class="teaching">
-		<div class="teaching-card shadow">
-			<img src="@/assets/k-teaching.png" alt="" />
-			<div>
-				<h2>Mr Krishna Moorthy</h2>
-				<h3>Faculty of Medicine, Department of Surgery & Cancer</h3>
-				<h4>Clinical Senior Lecturer in Upper Gastrointestinal</h4>
-				<a class="paper-link" href=""
-					>View profile at Imperial College’s website</a
-				>
+		<h1 id="teaching">Teaching</h1>
+		<div class="teaching">
+			<div class="teaching-card shadow">
+				<img src="@/assets/k-teaching.png" alt="" />
+				<div>
+					<h2>Mr Krishna Moorthy</h2>
+					<h3>Faculty of Medicine, Department of Surgery & Cancer</h3>
+					<h4>Clinical Senior Lecturer in Upper Gastrointestinal</h4>
+					<a class="paper-link" href=""
+						>View profile at Imperial College’s website</a
+					>
+				</div>
 			</div>
-		</div>
-		<div class="teaching-text">
-			<p>
-				As an academic surgeon, Krishna has supervised a number of PhDs
-				and MDs. He also supervises a number of postgraduate research
-				projects and dissertations.
-			</p>
-			He was the lead for the Master in Surgical Technology and now leads
-			two modules on the Masters in Surgical Innovation in Imperial
-			(link). He is involved in teaching on post-graduate courses in
-			patient safety, quality improvement and surgical technology.
-			<p>
-				He was the local lead for the Royal College of Surgeons Core
-				Skills in Laparoscopic surgery course. He has led and developed
-				surgical training courses in his areas of clinical interest.
-			</p>
-			<p>
-				He is an active surgical trainer and has trained a number of
-				trainees and established UK and visiting surgeons in
-				oesophagogastric, bariatric and abdominal wall hernia surgery.
-			</p>
+			<div class="teaching-text">
+				<p>
+					As an academic surgeon, Krishna has supervised a number of
+					PhDs and MDs. He also supervises a number of postgraduate
+					research projects and dissertations.
+				</p>
+				He was the lead for the Master in Surgical Technology and now
+				leads two modules on the Masters in Surgical Innovation in
+				Imperial (link). He is involved in teaching on post-graduate
+				courses in patient safety, quality improvement and surgical
+				technology.
+				<p>
+					He was the local lead for the Royal College of Surgeons Core
+					Skills in Laparoscopic surgery course. He has led and
+					developed surgical training courses in his areas of clinical
+					interest.
+				</p>
+				<p>
+					He is an active surgical trainer and has trained a number of
+					trainees and established UK and visiting surgeons in
+					oesophagogastric, bariatric and abdominal wall hernia
+					surgery.
+				</p>
+			</div>
 		</div>
 	</div>
 </template>

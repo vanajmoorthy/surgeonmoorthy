@@ -1,81 +1,85 @@
 <script setup></script>
 
 <template>
-	<main>
-		<img id="krishna-small" src="" alt="" />
-		<div class="hero-text">
-			<h1>Krishna Moorthy</h1>
-			<h2>MS∙MD∙FRCS</h2>
-			<p>
-				Senior lecturer and consultant surgeon at Imperial College,
-				London.
-			</p>
-		</div>
-	</main>
-
-	<div class="about">
-		<div class="about-text">
-			<h1>About</h1>
-			<p>
-				Krishna Moorthy (MS, MD, FRCS) is a senior lecturer and consult
-				surgeon at Imperial College London. His areas of clinical
-				expertise are oesophago-gastric and abdominal wall surgery.
-				Krishna's clinical and research interests are driven by a desire
-				to improve safety and quality of care in surgery.
-			</p>
-			<p>
-				He has published widely in many high impact journals and is
-				often invited to lecture on his topics of interest.
-			</p>
-			<p>
-				Krishna is also the founder of Onkohealth, a healthcare
-				initiative developed to optimise the health of people affected
-				by cancer through multi-professional coaching.
-			</p>
-		</div>
-		<div class="about-img">
-			<img src="@/assets/about-ig.png" alt="" />
-		</div>
-	</div>
-
-	<div class="values">
-		<h1>Values</h1>
-		<div class="diff-values">
-			<div class="row1">
-				<div class="patient-safety">
-					<h2>Patient Safety</h2>
-					<p>
-						Krishna sat on the working group of the WHO Safe Surgery
-						programme that led to the development of the WHO Safe
-						Surgery Checklist.
-					</p>
-				</div>
-				<div class="quality-improvement">
-					<h2>Quality Improvement</h2>
-					<p>
-						He has worked closely with NHS Quality Improvement
-						organisations such as CLAHRC-NWL and the Health
-						Foundation to integrate the principles of marginal gains
-						in improving outcomes in surgery.
-					</p>
-				</div>
+	<div>
+		<main>
+			<img id="krishna-small" src="" alt="" />
+			<div class="hero-text">
+				<h1>Krishna Moorthy</h1>
+				<h2>MS∙MD∙FRCS</h2>
+				<p>
+					Senior lecturer and consultant surgeon at Imperial College,
+					London.
+				</p>
 			</div>
-			<div class="row2">
-				<div class="patient-engagement">
-					<h2>Patient Engagement</h2>
-					<p>
-						His team undertakes regular patient engagement events to
-						utilise the principles of experiential co-design in
-						developing innovations in surgical pathways.
-					</p>
+		</main>
+
+		<div class="about">
+			<div class="about-text">
+				<h1>About</h1>
+				<p>
+					Krishna Moorthy (MS, MD, FRCS) is a senior lecturer and
+					consult surgeon at Imperial College London. His areas of
+					clinical expertise are oesophago-gastric and abdominal wall
+					surgery. Krishna's clinical and research interests are
+					driven by a desire to improve safety and quality of care in
+					surgery.
+				</p>
+				<p>
+					He has published widely in many high impact journals and is
+					often invited to lecture on his topics of interest.
+				</p>
+				<p>
+					Krishna is also the founder of Onkohealth, a healthcare
+					initiative developed to optimise the health of people
+					affected by cancer through multi-professional coaching.
+				</p>
+			</div>
+			<div class="about-img">
+				<img src="@/assets/about-ig.png" alt="" />
+			</div>
+		</div>
+
+		<div class="values">
+			<h1>Values</h1>
+			<div class="diff-values">
+				<div class="row1">
+					<div class="patient-safety">
+						<h2>Patient Safety</h2>
+						<p>
+							Krishna sat on the working group of the WHO Safe
+							Surgery programme that led to the development of the
+							WHO Safe Surgery Checklist.
+						</p>
+					</div>
+					<div class="quality-improvement">
+						<h2>Quality Improvement</h2>
+						<p>
+							He has worked closely with NHS Quality Improvement
+							organisations such as CLAHRC-NWL and the Health
+							Foundation to integrate the principles of marginal
+							gains in improving outcomes in surgery.
+						</p>
+					</div>
 				</div>
-				<div class="innovation">
-					<h2>Innovation</h2>
-					<p>
-						Krishna co-developed the PREPARE for prehabilitaton
-						programme which has won numerous awards including the
-						BMJ Surgical team of the year.
-					</p>
+				<div class="row2">
+					<div class="patient-engagement">
+						<h2>Patient Engagement</h2>
+						<p>
+							His team undertakes regular patient engagement
+							events to utilise the principles of experiential
+							co-design in developing innovations in surgical
+							pathways.
+						</p>
+					</div>
+					<div class="innovation">
+						<h2>Innovation</h2>
+						<p>
+							Krishna co-developed the PREPARE for prehabilitaton
+							programme which has won numerous awards including
+							the BMJ Surgical team of the year.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
