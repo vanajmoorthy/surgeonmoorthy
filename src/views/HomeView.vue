@@ -154,14 +154,14 @@
 main {
 	display: flex;
 	flex-direction: column;
-	height: calc(100vh + 8px);
+	height: calc(100vh + 17px);
 	justify-content: center;
 	align-items: flex-end;
-	background-image: url("../assets/krishna.jpeg");
+	background-image: url("/src/assets/krishna-images/krishna-main.jpeg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: -140px 0px;
-	top: -100px;
+	background-position: -208px 0px;
+	top: -91px;
 	z-index: -1;
 }
 
@@ -233,7 +233,7 @@ main {
 	}
 
 	#krishna-small {
-		content: url("@/assets/krishna-small.jpeg");
+		content: url("/src/assets/krishna-images/krishna-main-small.jpeg");
 		border-radius: 20px;
 		height: auto;
 		width: 85%;
