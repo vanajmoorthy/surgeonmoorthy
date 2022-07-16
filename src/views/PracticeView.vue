@@ -15,7 +15,7 @@
 		</div>
 	</main>
 	<div class="bariatric">
-		<div>
+		<RouterLink to="/bariatric" class="router">
 			<div class="bariatric-img">
 				<img class="shadow" src="@/assets/BARIATRIC.png" alt="" />
 			</div>
@@ -33,12 +33,13 @@
 					plan that addresses the overall health of every individual.
 					Surgery is a start towards a new life.
 				</p>
+				<p class="click">Click to view more</p>
 			</div>
-		</div>
+		</RouterLink>
 	</div>
 
 	<div class="cancer">
-		<div>
+		<RouterLink to="/bariatric" class="router">
 			<div class="cancer-img">
 				<img class="shadow" src="@/assets/CANCER.jpeg" alt="" />
 			</div>
@@ -56,12 +57,13 @@
 					only the most modern cancer treatment but that their health
 					is optimised throughout their treatment.
 				</p>
+				<p class="click">Click to view more</p>
 			</div>
-		</div>
+		</RouterLink>
 	</div>
 
 	<div class="bariatric">
-		<div>
+		<RouterLink to="/bariatric" class="router">
 			<div class="bariatric-img">
 				<img
 					class="shadow"
@@ -83,12 +85,13 @@
 					with his gastroenterology colleagues to provide a
 					personalised treatment plan for his patients.
 				</p>
+				<p class="click">Click to view more</p>
 			</div>
-		</div>
+		</RouterLink>
 	</div>
 
 	<div class="cancer">
-		<div>
+		<RouterLink to="/bariatric" class="router">
 			<div class="cancer-img">
 				<img
 					class="shadow"
@@ -110,8 +113,9 @@
 					require thorough investigation, meticulous planning and a
 					multi-disciplinary approach.
 				</p>
+				<p class="click">Click to view more</p>
 			</div>
-		</div>
+		</RouterLink>
 	</div>
 
 	<div class="abdominal-wall">
@@ -154,41 +158,8 @@
 		</a>
 	</div>
 
-	<div class="lap">
-		<div>
-			<h2>Laparosurgery</h2>
-			<p>
-				Laparosurgery is a private surgical practice providing patients
-				with the best surgical care using the laparoscopic technique. At
-				Laparosurgery we regularly perform laparoscopic gastric banding,
-				laparoscopic gastric bypass and laparoscopic sleeve gastrectomy
-				as well as advanced laparoscopic surgery for upper
-				gastrointestinal conditions such as hiatus hernia,
-				gastro-oesophageal reflux disease, swallowing disorders such as
-				oesophageal achalasia and cancer.
-			</p>
-			<p>
-				Laparosurgery is led by consultant Krishna Moorthy who is a
-				leading NHS & private laparoscopic surgeon with over 10 years
-				experience in laparoscopic surgery. Mr. Moorthy specializes in:
-			</p>
-			<ul>
-				<li>Obesity surgery (bariatric surgery)</li>
-				<li>
-					Advanced laparoscopic surgery for upper gastrointestinal
-					conditions such as hiatus hernia,
-				</li>
-				<li>
-					Gastro-oesophageal reflux disease and swallowing disorders
-					such as oesophageal achalasia.
-				</li>
-				<li>Upper gastrointestinal surgery for cancer</li>
-			</ul>
-		</div>
-	</div>
-
 	<h2 id="lap-italic">
-		Laparosurgery has practices at the following London locations:
+		Mr Moorthy has practices at the following London locations:
 	</h2>
 
 	<div class="lap-locations #lap-locations">
@@ -236,49 +207,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="location shadow">
-			<img src="@/assets/hospital-imgs/clementine.jpeg" alt="" />
-			<div>
-				<h2 class="location-name">The Clementine Churchill Hospital</h2>
-				<p class="address">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
-					>
-						<path
-							d="M12 2C7.589 2 4 5.589 4 9.995 3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12 0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"
-						></path>
-					</svg>
-					Sudbury Hill, Harrow, HA1 3RX
-				</p>
-				<p class="number">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
-					>
-						<path
-							d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z"
-						></path>
-					</svg>
-					+ 44 (0)20 8872 3872
-				</p>
-				<div class="map-link-holder">
-					<a
-						href="https://www.google.co.uk/maps/place/Sudbury+Hill,+Harrow+HA1+3RX,+UK/@51.5640352,-0.3384567,17z/data=!4m5!3m4!1s0x487613068392dca5:0xbbdf763913602ad2!8m2!3d51.5640352!4d-0.336268?hl=en"
-						class="map-link"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img src="@/assets/hospital-imgs/map.svg" alt="" />
-						Find on Maps</a
-					>
-				</div>
-			</div>
-		</div>
+
 		<div class="location shadow">
 			<img src="@/assets/hospital-imgs/harley.png" alt="" />
 			<div>
@@ -325,7 +254,7 @@
 		<div class="location shadow">
 			<img src="@/assets/hospital-imgs/weymouth.jpeg" alt="" />
 			<div>
-				<h2 class="location-name">BMI Weymouth Hospital</h2>
+				<h2 class="location-name">Phoenix Hospital, Weymouth Street</h2>
 				<p class="address">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -428,6 +357,11 @@
 	width: max-content;
 	padding: 0 1rem 0 0;
 	transition: 0.2s ease all;
+}
+
+.click {
+	margin-top: 0.5rem;
+	color: #0050fd;
 }
 
 .map-link:hover {
@@ -549,14 +483,24 @@ ul > li {
 	justify-content: center;
 	margin-top: 4rem;
 }
-.bariatric > div,
-.cancer > div {
+.bariatric > a,
+.cancer > a {
 	display: flex;
-	max-width: 800px;
+	max-width: 850px;
 	align-items: center;
+	text-decoration: none;
+	color: black;
+	border-radius: 24px;
+	padding: 1rem;
+	transition: 0.2s ease all;
+	margin: 1rem;
 }
 
-.cancer > div {
+.router:hover {
+	background-color: rgb(235, 235, 235);
+}
+
+.cancer > a {
 	flex-direction: row-reverse;
 }
 
@@ -652,8 +596,8 @@ main {
 }
 
 @media screen and (max-width: 860px) {
-	.bariatric > div,
-	.cancer > div {
+	.bariatric > a,
+	.cancer > a {
 		flex-direction: column;
 	}
 

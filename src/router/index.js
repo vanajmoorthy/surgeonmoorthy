@@ -29,6 +29,12 @@ const router = createRouter({
 			name: "contact",
 			component: () => import("../views/ContactView.vue"),
 		},
+		{
+			path: "/bariatric",
+			name: "bariatric",
+			component: () => import("../views/BariatricView.vue"),
+			meta: { transition: "slide-left" },
+		},
 	],
 });
 
