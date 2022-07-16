@@ -47,6 +47,32 @@
 					patients undergoing private cancer treatment in London and
 					beyond.
 				</p>
+				<div class="hernia-center">
+					<a
+						id="british-hernia-center"
+						href="https://onkohealth.co.uk/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>ONKOHEALTH
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							style="
+								fill: rgba(255, 255, 255, 1);
+								transform: ;
+								msfilter: ;
+							"
+						>
+							<path
+								d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"
+							></path>
+							<path
+								d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+							></path>
+						</svg>
+					</a>
+				</div>
 			</div>
 		</main>
 
@@ -104,6 +130,32 @@
 </template>
 
 <style scoped>
+.hernia-center {
+	display: flex;
+	justify-content: center;
+}
+
+#british-hernia-center {
+	color: white;
+	background-color: #0050fd;
+	border-radius: 8px;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	transition: 0.2s ease all;
+	margin-top: 2rem;
+}
+
+#british-hernia-center > svg {
+	margin-left: 0.5rem;
+}
+
+#british-hernia-center:hover {
+	background-color: #0140c8;
+}
 .m-top-2 {
 	margin-top: 4rem;
 }
