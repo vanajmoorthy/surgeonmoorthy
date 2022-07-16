@@ -659,7 +659,6 @@ main {
 
 	.bariatric-text {
 		max-width: 600px;
-		margin: 0 2rem 2rem 2rem;
 	}
 }
 </style>
