@@ -35,6 +35,19 @@ const router = createRouter({
 			component: () => import("../views/BariatricView.vue"),
 			meta: { transition: "slide-left" },
 		},
+
+		{
+			path: "/cancer",
+			name: "cancer",
+			component: () => import("../views/CancerView.vue"),
+			meta: { transition: "slide-left" },
+		},
+		{
+			path: "/revision",
+			name: "revision",
+			component: () => import("../views/RevisionView.vue"),
+			meta: { transition: "slide-left" },
+		},
 	],
 });
 

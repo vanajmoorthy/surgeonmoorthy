@@ -258,7 +258,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 500px;
+	max-width: 700px;
 	margin-top: 4rem;
 	padding: 0 2rem;
 }

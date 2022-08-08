@@ -42,7 +42,7 @@
 		</div>
 
 		<div class="cancer">
-			<RouterLink to="/bariatric" class="router">
+			<RouterLink to="/cancer" class="router">
 				<div class="cancer-img">
 					<img class="shadow" src="@/assets/CANCER.jpeg" alt="" />
 				</div>
@@ -67,7 +67,12 @@
 		</div>
 
 		<div class="bariatric">
-			<RouterLink to="/bariatric" class="router">
+			<a
+				href="https://gastroreflux.co.uk"
+				target="_blank"
+				rel="noopener noreferer"
+				class="router"
+			>
 				<div class="bariatric-img">
 					<img
 						class="shadow"
@@ -91,11 +96,11 @@
 					</p>
 					<p class="click">Click to view more</p>
 				</div>
-			</RouterLink>
+			</a>
 		</div>
 
 		<div class="cancer">
-			<RouterLink to="/bariatric" class="router">
+			<RouterLink to="/revision" class="router">
 				<div class="cancer-img">
 					<img
 						class="shadow"
@@ -620,7 +625,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 500px;
+	max-width: 700px;
 	margin-top: 4rem;
 }
 
