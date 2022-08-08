@@ -159,7 +159,7 @@
 
 		<div class="flex-cols">
 			<div @click="showModal1 = true" class="sleeve">
-				<img src="@/assets/sleeve gastrectomy.jpg" alt="" />
+				<img src="@/assets/sleevegastrectomy.jpg" alt="" />
 				<h2>Sleeve Gastrectomy</h2>
 				<p>Click to learn more</p>
 			</div>
