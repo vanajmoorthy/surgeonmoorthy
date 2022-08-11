@@ -885,6 +885,13 @@ main {
 	justify-content: center;
 }
 
+@media screen and (max-width: 570px) {
+	.flex-cols {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 .flex-cols > div {
 	display: flex;
 	flex-direction: column;
