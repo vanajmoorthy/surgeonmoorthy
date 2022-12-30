@@ -11,6 +11,11 @@
 					Senior lecturer and consultant surgeon at Imperial College,
 					London.
 				</p>
+				<iframe
+					src="https://www.topdoctors.co.uk/ws/show_widget/7eabe3a1649ffa2b3ff8c02ebfd5659f/1"
+					scrolling="no"
+					class="top-doctors"
+				></iframe>
 			</div>
 		</main>
 
@@ -138,6 +143,15 @@
 	font-weight: 900;
 }
 
+.top-doctors {
+	border: 0px;
+	max-width: 240px;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	margin-left: -15px;
+}
+
 .values {
 	padding: 2rem;
 }
@@ -167,8 +181,8 @@ main {
 
 .hero-text {
 	margin-right: 9%;
-	background-color: rgb(255, 255, 255, 0.7);
-	padding: 1rem;
+	background-color: rgb(255, 255, 255, 1);
+	padding: 1rem 1rem 0rem 1rem;
 	border-radius: 12px;
 	backdrop-filter: blur(30px);
 }
@@ -219,7 +233,7 @@ main {
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
-		padding: 2rem 0;
+		padding: 5rem 0;
 		margin-top: 0rem;
 	}
 
