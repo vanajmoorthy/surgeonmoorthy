@@ -341,7 +341,7 @@ textarea::placeholder {
 	font-weight: 600;
 	background-color: #2557f8;
 	padding: 0.3rem 0.5rem;
-	margin-top: 1rem;
+	margin-top: 1.4rem;
 	border-radius: 10px;
 }
 
@@ -378,6 +378,7 @@ textarea::placeholder {
 .hernia-contact > div p {
 	display: flex;
 	align-items: center;
+	margin: 0.5rem 0rem;
 }
 .shadow {
 	-webkit-box-shadow: 10px 10px 32px 0px rgba(181, 181, 181, 1);

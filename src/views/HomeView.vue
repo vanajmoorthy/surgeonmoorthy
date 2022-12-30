@@ -139,7 +139,7 @@
 }
 
 .values {
-	padding: 4rem 2rem 2rem 2rem;
+	padding: 2rem;
 }
 
 .about-text p {
@@ -243,6 +243,16 @@ main {
 
 	.hero-text {
 		margin: 0 1rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#krishna-small {
+		margin: 9rem 2rem 2rem 2rem;
+	}
+
+	.about {
+		margin-top: 9rem;
 	}
 }
 </style>

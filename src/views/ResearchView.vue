@@ -44,7 +44,7 @@
 		<h1 id="teaching">Teaching</h1>
 		<div class="teaching">
 			<div class="teaching-card shadow">
-				<img src="@/assets/k-teaching.png" alt="" />
+				<img src="@/assets/krishna-images/KMpic.png" alt="" />
 				<div>
 					<h2>Mr Krishna Moorthy</h2>
 					<h3>Faculty of Medicine, Department of Surgery & Cancer</h3>
@@ -180,9 +180,11 @@ export default {
 .teaching-card > div > a {
 	margin-top: 0.5rem;
 }
+
 .teaching-card img {
 	max-width: 200px;
 	max-height: 200px;
+	border-radius: 200px;
 }
 
 .teaching-text {
