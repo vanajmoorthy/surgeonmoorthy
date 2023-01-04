@@ -11,11 +11,14 @@
 					Senior lecturer and consultant surgeon at Imperial College,
 					London.
 				</p>
-				<iframe
-					src="https://www.topdoctors.co.uk/ws/show_widget/7eabe3a1649ffa2b3ff8c02ebfd5659f/1"
-					scrolling="no"
-					class="top-doctors"
-				></iframe>
+				<div class="top-doctors">
+					<p>MEMBER OF</p>
+					<img src="@/assets/td.png" alt="" />
+					<a
+						href="https://www.topdoctors.co.uk/doctor/krishna-moorthy"
+						>Book online now</a
+					>
+				</div>
 			</div>
 		</main>
 
@@ -144,12 +147,35 @@
 }
 
 .top-doctors {
-	border: 0px;
-	max-width: 240px;
-	width: 100%;
-	height: 150px;
-	overflow: hidden;
-	margin-left: -15px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #868788;
+	border-radius: 10px;
+	max-width: 200px;
+	padding: 0.7rem;
+	margin: 1rem 0;
+}
+
+.top-doctors p {
+	color: #868788;
+	font-weight: 800;
+}
+
+.top-doctors > img {
+	width: 140px;
+	margin: 0.4rem 0;
+}
+
+.top-doctors a {
+	color: white;
+	text-decoration: none;
+	background-color: #0050fd;
+	width: max-content;
+	padding: 0.3rem 0.5rem;
+	border-radius: 8px;
+}
+.top-doctors > a:hover {
+	cursor: pointer;
 }
 
 .values {
@@ -181,7 +207,7 @@ main {
 
 .hero-text {
 	margin-right: 9%;
-	background-color: rgb(255, 255, 255, 1);
+	background-color: rgb(255, 255, 255, 0.7);
 	padding: 1rem 1rem 0rem 1rem;
 	border-radius: 12px;
 	backdrop-filter: blur(30px);
@@ -226,14 +252,13 @@ main {
 		align-items: center;
 		background-image: none;
 		top: 0px;
-		height: calc(100vh - 120px);
 	}
 
 	.about {
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
-		padding: 5rem 0;
+		padding-top: 5rem;
 		margin-top: 0rem;
 	}
 
