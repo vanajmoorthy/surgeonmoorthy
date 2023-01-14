@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
 	<div>
 		<main>
@@ -15,6 +13,8 @@
 					<p>MEMBER OF</p>
 					<img src="@/assets/td.png" alt="" />
 					<a
+						target="_blank"
+						rel="noopener noreferrer"
 						href="https://www.topdoctors.co.uk/doctor/krishna-moorthy"
 						>Book online now</a
 					>
@@ -49,7 +49,7 @@
 		</div>
 
 		<div class="values">
-			<h1>Values</h1>
+			<h>Values</h>
 			<div class="diff-values">
 				<div class="row1">
 					<div class="patient-safety">
@@ -202,7 +202,6 @@ main {
 	background-size: contain;
 	background-position: -208px 0px;
 	top: -91px;
-	z-index: -1;
 }
 
 .hero-text {
@@ -282,6 +281,12 @@ main {
 
 	.hero-text {
 		margin: 0 1rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	main {
+		/* height: 90vh; */
 	}
 }
 
