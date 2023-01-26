@@ -66,6 +66,7 @@ nav {
 	justify-content: space-between;
 	font-size: 1.1rem;
 	backdrop-filter: blur(2px);
+	z-index: 2;
 }
 
 #home {
